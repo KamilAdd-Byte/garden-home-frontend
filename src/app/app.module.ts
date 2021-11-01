@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -13,6 +12,7 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
 import { FooterComponent } from './footer/footer.component';
 import { ContainerComponent } from './container/container.component';
+import { HerbsComponent } from './herbs/herbs.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +20,7 @@ import { ContainerComponent } from './container/container.component';
     NavbarComponent,
     FooterComponent,
     ContainerComponent,
+    HerbsComponent,
   ],
   imports: [
     BrowserModule,

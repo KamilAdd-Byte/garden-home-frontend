@@ -1,0 +1,11 @@
+<ul class="collection">
+  <li class="collection-item row" *ngFor="let herb of herbs">
+    <span class="col s9">Nazwa: {{herb.name}} </span>
+    <span class="col s9">Charakterystyka: {{herb.description}}</span>
+    <span class="col s10">Dzienne zapotrzebowanie na wodę: {{herb.waterConsumptionPerDay}}</span>
+    <span class="col s10">Miesiąc siewu: {{herb.monthOfSow}}</span>
+    <span class="col s10">Zapotrzebowanie na światło: {{herb.light}}</span>
+    <span class="col s10">Minimalna temperatura: {{herb.minTemperature}}</span>
+    <span class="col s10">Maksymalna temperatura temperatura: {{herb.maxTemperature}}</span>
+  </li>
+</ul>
