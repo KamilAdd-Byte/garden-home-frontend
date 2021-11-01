@@ -1,0 +1,12 @@
+.example-card {
+  max-width: 30%;
+  margin: 5px;
+}
+.main-container{
+  display: flex;//ustawia card obok siebie
+  flex-wrap: wrap;
+}
+.example-header-image {
+  background-image: url('https://kuchnia.it/Img/blog/wloskie-ziola-zrob-to-sam/ogrodek.jpg');
+  background-size: cover;
+}

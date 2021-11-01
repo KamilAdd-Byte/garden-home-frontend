@@ -1,0 +1,22 @@
+.example-card {
+  max-width: 28%;
+  max-height: 28%;
+}
+//ustawianie parametrów dla obrazów w CARD.
+.mat-card-image{
+  height: 500px;
+  width: 500px;
+  margin: 5px;
+}
+.mat-card-content{
+  text-align: justify;
+}
+.main-container{
+  display: flex;//ustawia card obok siebie
+  flex-wrap: wrap;
+  background-color: darkseagreen;
+}
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
